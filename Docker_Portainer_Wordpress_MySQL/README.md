@@ -20,7 +20,7 @@
 	* ```nano Dockerfile```  and add ```FROM wordpress:latest```
 	* ```ctrl+x``` press y and enter
 1. Create a folder called db. Go inside the folder and create a file call Dockerfile and a the line
-	* ```mkdir db
+	* ```mkdir db```
 	* ```cd db```
 	* ```nano Dockerfile```
 	* ```FROM hypriot/rpi-mysql:latest```
