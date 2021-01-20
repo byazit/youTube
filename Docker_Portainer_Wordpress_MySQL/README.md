@@ -20,10 +20,12 @@
 	* ```nano Dockerfile```  and add ```FROM wordpress:latest```
 	* ```ctrl+x``` press y and enter
 1. Create a folder called db. Go inside the folder and create a file call Dockerfile and a the line
-	* ```mkdir db```
-	* ```cd db```
-	* ```nano Dockerfile```
-	* ```FROM hypriot/rpi-mysql:latest```
+	* ```
+	mkdir db
+	cd db
+	nano Dockerfile
+	FROM hypriot/rpi-mysql:latest
+	```
 1. Create docker-compose.yaml file
 	* ```nano docker-compose.yaml```
 1. Add this to the file docker-compose.yaml file
