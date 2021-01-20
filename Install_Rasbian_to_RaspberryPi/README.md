@@ -12,6 +12,7 @@
 		```
 
 	* for save and exit ```ctrl+x and y and enter```
+	* To run the script ```sudo sh update```
 1. For terminal installation 
 	* ```dd bs=4M if=2020-12-02-raspios-buster-armhf-lite.img |pv| dd of=/dev/sdb conv=fsync```
 1. pv for preview. If you get error, install pv ```apt install pv -y```
