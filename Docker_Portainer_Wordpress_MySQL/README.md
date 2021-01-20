@@ -27,8 +27,7 @@
 1. Create docker-compose.yaml file
 	* ```nano docker-compose.yaml```
 1. Add this to the file docker-compose.yaml file
-	* ```
-	version: "3.7"
+	* ```version: "3.7"
 	services:
 	 db:
 	   build: ./db
@@ -85,8 +84,7 @@
 	   name: db_data
 	 psql_data:
 	   driver: local
-	   name: psql_data	
-	```
+	   name: psql_data```
 1. Now we will fire up our docker composer
 	* ```docker-compose down && docker-compose build && docker-compose up -d && docker ps -a```
 
