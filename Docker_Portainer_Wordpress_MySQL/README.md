@@ -4,7 +4,7 @@
 	* ```curl -fsSL get.docker.com -o get-docker.sh && sh get-docker.sh```
 1. Add pi user in Docker group
 	* ```sudo usermod -aG docker pi```
-1. Check if Docker version 
+1. Check docker version 
 	* ```docker -v```
 1. Block all incoming traffic, allow all outgoing traffic and allow ssh so we can ssh to our pi. And enable it
 	* ```sudo ufw default deny incoming && sudo ufw default allow outgoing && sudo ufw allow ssh && sudo ufw enable```
@@ -19,16 +19,15 @@
 1. Create Dockerfile
 	* ```nano Dockerfile```  and add ```FROM wordpress:latest```
 	* ```ctrl+x``` press y and enter
-1. Create a folder called db
+1. Create a folder called db. Go inside the folder and create a file call Dockerfile and a the line
 	* ```mkdir db```
 	* ```cd db```
 	* ```nano Dockerfile```
 	* ```FROM hypriot/rpi-mysql:latest```
-1. Create docker-compose.yaml
+1. Create docker-compose.yaml file
 	* ```nano docker-compose.yaml```
-1. Add this to the file docker-compose.yaml
-	* 
-	```
+1. Add this to the file docker-compose.yaml file
+	* ```
 	version: "3.7"
 	services:
 	 db:
@@ -89,6 +88,6 @@
 	   name: psql_data	
 	```
 1. Now we will fire up our docker composer
-	*```docker-compose down && docker-compose build && docker-compose up -d && docker ps -a```
+	* ```docker-compose down && docker-compose build && docker-compose up -d && docker ps -a```
 
 
