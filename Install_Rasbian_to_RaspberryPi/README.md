@@ -6,8 +6,10 @@
 1. I wrote a bash script to speed up update process. Open the terminal and write 
 	* ```nano update```
     *and paste  
-	* ```#!/bin/sh
-		sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt autoremove -y```
+		```
+		#!/bin/sh
+		sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt autoremove -y 
+		```
 
 	* for save and exit ```ctrl+x and y and enter```
 1. For terminal installation 
