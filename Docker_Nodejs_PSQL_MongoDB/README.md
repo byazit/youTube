@@ -45,5 +45,6 @@
 	* ```GRANT ALL PRIVILEGES ON DATABASE newdatabase TO newuser;```
 	* ```\q```
 	
+1. If you want to user docker-compose and NOT PORTAINER. Download docker-compose folder and run
+	* ```docker-compose down && docker-compose build && docker-compose up -d && docker ps -a``` you should get the same result
 		
-
