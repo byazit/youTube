@@ -1,4 +1,4 @@
-# How to install Docker, portainer, wordpress and mySQL in RaspberryPi
+# How to install Docker, portainer, wordpress, MySQL, nodejs and PSQL in RaspberryPi
 
 1. Install docker as non-root user
 	* ```curl -fsSL get.docker.com -o get-docker.sh && sh get-docker.sh```
